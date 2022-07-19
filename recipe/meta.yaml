@@ -32,7 +32,6 @@ test:
 
 about:
   home: https://github.com/nest-desktop/nest-desktop
-  summary: A web-based GUI application for NEST Simulator
   license: MIT
   license_file: LICENSE
   summary: NEST Desktop is a web-based application for NEST Simulator.
