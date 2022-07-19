@@ -13,6 +13,10 @@ Development: https://github.com/nest-desktop/nest-desktop
 
 Documentation: https://nest-desktop.readthedocs.io
 
+NEST Desktop is a web-based application which provides a graphical user interface for NEST Simulator. With this easy-to-use tool, users can interactively construct neuronal networks and explore network dynamics.
+
+Advanced users often choose NEST Simulator: a prominent tool for spiking neuronal networks to measure network dynamics. However, programming knowledge is required to write code for this tool. NEST Desktop bypasses this requirement, but still teaches users how to construct and explore neuronal networks. A textual script is generated from the constructed networks and sent to NEST Simulator; the network activity is then visualized in a graph or table. It is a useful teaching tool, since the network graphs and network activity visualizations can be exported to files that users can implement for their course protocol.
+
 Current build status
 ====================
 
