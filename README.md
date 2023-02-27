@@ -5,17 +5,22 @@ Home: https://github.com/nest-desktop/nest-desktop
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nest-desktop-feedstock/blob/main/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nest-desktop-conda-feedstock/blob/main/LICENSE.txt)
 
-Summary: A web-based GUI application for NEST Simulator
+Summary: NEST Desktop is a web-based application for NEST Simulator.
 
 Development: https://github.com/nest-desktop/nest-desktop
 
 Documentation: https://nest-desktop.readthedocs.io
 
-NEST Desktop is a web-based application which provides a graphical user interface for NEST Simulator. With this easy-to-use tool, users can interactively construct neuronal networks and explore network dynamics.
+NEST Desktop is a web-based application which provides a graphical user interface for NEST Simulator.
+With this easy-to-use tool, users can interactively construct neuronal networks and explore network dynamics.
+Advanced users often choose NEST Simulator: a prominent tool for spiking neuronal networks to measure network dynamics.
+However, programming knowledge is required to write code for this tool.
+NEST Desktop bypasses this requirement, but still teaches users how to construct and explore neuronal networks.
+A textual script is generated from the constructed networks and sent to NEST Simulator; the network activity is then visualized in a graph or table.
+It is a useful teaching tool, since the network graphs and network activity visualizations can be exported to files that users can implement for their course protocol.
 
-Advanced users often choose NEST Simulator: a prominent tool for spiking neuronal networks to measure network dynamics. However, programming knowledge is required to write code for this tool. NEST Desktop bypasses this requirement, but still teaches users how to construct and explore neuronal networks. A textual script is generated from the constructed networks and sent to NEST Simulator; the network activity is then visualized in a graph or table. It is a useful teaching tool, since the network graphs and network activity visualizations can be exported to files that users can implement for their course protocol.
 
 Current build status
 ====================
@@ -23,8 +28,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16479&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/nest-desktop-feedstock?branchName=main">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/nest-desktop-conda-feedstock?branchName=main">
       </a>
     </td>
   </tr>
