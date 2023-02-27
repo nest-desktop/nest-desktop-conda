@@ -1,6 +1,9 @@
 github:
-  branch_name: main
-  tooling_branch_name: main
+  branch_name: dev
+  tooling_branch_name: dev
 conda_forge_output_validation: true
 conda_build:
   pkg_format: '2'
+channels:
+  targets:
+    - ["conda-forge", "dev"]
