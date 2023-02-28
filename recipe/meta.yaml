@@ -1,5 +1,5 @@
 {% set name = "nest-desktop" %}
-{% set version = "3.2.0rc2" %}
+{% set version = "3.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 829c85b13e2bff57a3f7ba635c0653550b72f1e7d2f4c50cb814464688920ace
+  sha256: e418ed1f6d8a392284795949075e34019ae763b01757ac007f7b8acbfccdabd7
 
 build:
   number: 0
