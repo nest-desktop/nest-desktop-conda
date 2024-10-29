@@ -1,13 +1,13 @@
 {% set name = "nest-desktop" %}
-{% set version = "3.3.1" %}
+{% set version = "4.0rc1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 367604cf69deadda86f05ca8f3d618f06d52cf0b7a83e39c1dabbc222b233170
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/nest_desktop-{{ version }}.tar.gz
+  sha256: f43c6f09cccd4a37b08a4c7394cb1ca2afa7a61ad64ea7f09d5b21d22e0f9e35
 
 build:
   number: 0
@@ -17,9 +17,9 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.9
   run:
-    - python >=3.6
+    - python >=3.9
 
 test:
   imports:
