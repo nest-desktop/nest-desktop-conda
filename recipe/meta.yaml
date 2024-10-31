@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/nest_desktop-{{ version }}.tar.gz
-  sha256: f43c6f09cccd4a37b08a4c7394cb1ca2afa7a61ad64ea7f09d5b21d22e0f9e35
+  sha256: 0d495c41e561aa98208d06f8ef5aef314030486bb2018327fef1e5bdba453734
 
 build:
   number: 0
