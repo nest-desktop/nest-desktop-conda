@@ -1,5 +1,5 @@
 {% set name = "nest-desktop" %}
-{% set version = "4.0.0" %}
+{% set version = "4.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/nest_desktop-{{ version }}.tar.gz
-  sha256: 0d495c41e561aa98208d06f8ef5aef314030486bb2018327fef1e5bdba453734
+  sha256: 7f3766886332db8608d03ee96d516b1d605a3c56a3486889cb39828492a3daf1
 
 build:
   number: 0
