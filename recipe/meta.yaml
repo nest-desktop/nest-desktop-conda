@@ -1,5 +1,5 @@
 {% set name = "nest-desktop" %}
-{% set version = "4.0.3" %}
+{% set version = "4.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/nest_desktop-{{ version }}.tar.gz
-  sha256: 3a175d117a9e0d4ed505be776f41dbf65cbe72c24d8cadb2decaaaeb383b2bb1
+  sha256: b6058f8181a7daadb1c117102ca27a1308e81ab9fef886bdb45eaf4f250e918a
 
 build:
   number: 0
@@ -32,7 +32,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/nest-desktop/nest-desktop
+  home: https://nest-desktop.github.io
   license: MIT
   license_file: LICENSE
   summary: NEST Desktop is a web-based application for NEST Simulator.
