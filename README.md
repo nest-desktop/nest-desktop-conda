@@ -3,7 +3,7 @@ About nest-desktop-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nest-desktop-conda-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/nest-desktop/nest-desktop
+Home: https://nest-desktop.github.io
 
 Package license: MIT
 
