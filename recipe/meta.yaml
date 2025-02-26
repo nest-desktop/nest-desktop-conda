@@ -10,17 +10,17 @@ source:
   sha256: fffd472bf2f5e1a4398ad82cbe626e1b306d68b0e3a31ffcca71cd3449d8ef2f
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
   host:
     - pip
-    - python >=3.9
+    - python {{ python_min }}
     - setuptools
   run:
-    - python >=3.9
+    - python >={{ python_min }}
 
 test:
   imports:
@@ -30,6 +30,7 @@ test:
     - nest-desktop status  # [unix]
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://nest-desktop.github.io
