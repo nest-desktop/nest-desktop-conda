@@ -1,7 +1,7 @@
 About nest-desktop-feedstock
 ============================
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nest-desktop-feedstock/blob/main/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nest-desktop-conda-feedstock/blob/main/LICENSE.txt)
 
 Home: https://nest-desktop.github.io
 
@@ -29,8 +29,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16479&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/nest-desktop-feedstock?branchName=main">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=None&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/nest-desktop-conda-feedstock?branchName=main">
       </a>
     </td>
   </tr>
